@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:counter_7/form.dart';
+import 'package:counter_7/watchlist/mywatchlist.dart';
 import 'list.dart';
 
 void main() {
@@ -121,6 +122,15 @@ class _MyHomePageState extends State<MyHomePage> {
               );
             },
           ),
+          ListTile(
+                        title: const Text('MyWatchlist'),
+                        onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => const MyWatchListPage()),
+                        );
+                        },
+                    ),
         ]),
       ),
       body: Center(

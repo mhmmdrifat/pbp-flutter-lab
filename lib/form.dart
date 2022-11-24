@@ -3,6 +3,7 @@ import 'package:counter_7/list.dart';
 import 'package:counter_7/models.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:counter_7/watchlist/mywatchlist.dart';
 
 class AddBudgetPage extends StatefulWidget {
   const AddBudgetPage({super.key});
@@ -62,6 +63,15 @@ class _AddBudgetPage extends State<AddBudgetPage> {
               );
             },
           ),
+          ListTile(
+                        title: const Text('MyWatchlist'),
+                        onTap: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => const MyWatchListPage()),
+                        );
+                        },
+                    ),
         ]),
       ),
       body: Form(

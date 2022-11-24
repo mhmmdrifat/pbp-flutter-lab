@@ -1,0 +1,112 @@
+[
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 1,
+        "fields": {
+            "watched": "Sudah",
+            "title": "The Imitation Game",
+            "rating": 5,
+            "release_date": "2014",
+            "review": "Film yang baik dan memiliki latar belakang perang dunia 2."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 2,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Hacksaw Ridge",
+            "rating": 5,
+            "release_date": "2016",
+            "review": "Filmnya memiliki alur cerita yang menarik dan memiliki pesan moral yang bagus."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 3,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Her",
+            "rating": 5,
+            "release_date": "2013",
+            "review": "Filmnya bagus dan memiliki plot yang tidak terduga."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 4,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Fight Club",
+            "rating": 5,
+            "release_date": "1999",
+            "review": "Memiliki alur cerita yang kompleks dan menegangkan."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 5,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Everything Everywhere All at Once",
+            "rating": 5,
+            "release_date": "2022",
+            "review": "Film produksi A24 terbaik."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 6,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Midsommar",
+            "rating": 5,
+            "release_date": "2019",
+            "review": "Memiliki alur cerita yang tidak biasa dan absurd."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 7,
+        "fields": {
+            "watched": "Sudah",
+            "title": "The Lord of The Rings",
+            "rating": 5,
+            "release_date": "2001-2003",
+            "review": "Best Trilogy."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 8,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Incantation",
+            "rating": 5,
+            "release_date": "2022",
+            "review": "Film dengan konsep Documentary terbaik pada tahun ini."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 9,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Interstellar",
+            "rating": 5,
+            "release_date": "2014",
+            "review": "Plot ceritanya bagus dan memunculkan rasa penasaran."
+        }
+    },
+    {
+        "model": "mywatchlist.watchlist",
+        "pk": 10,
+        "fields": {
+            "watched": "Sudah",
+            "title": "Django Unchained",
+            "rating": 5,
+            "release_date": "2012",
+            "review": "Film dengan cast dan cerita yang menarik."
+        }
+    }
+]
